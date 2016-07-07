@@ -321,7 +321,7 @@ if __name__=="__main__":
 			ytest = y[test] 
 
 			AppliedAmountTest = Xtest[:,applied_amount_idx]			
-			InterestTest = Xtest[:,interest_idx]
+			InterestTest = Xtest[:,interest_idx]*0.01
 
 			print "General info about the test set:"
 			print "\t%d loans" % (ytest.shape[0])
